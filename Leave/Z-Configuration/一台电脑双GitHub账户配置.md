@@ -241,14 +241,14 @@ git fetch --all && git reset --hard origin/main && git clean -fd
 
 ### 常用更新3件套
 ```python
-git add . 
+git add -A
 git commit -m "note"
 git push
 
 ```
 
 ```
-git add . && git commit -m"sync" && git push
+git add -A && git commit -m"sync" && git push
 ```
 
 
