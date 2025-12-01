@@ -1,0 +1,2 @@
+# Resignation
+record Resignation
