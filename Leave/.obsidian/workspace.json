@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "5fd8823d5eec0fca",
+    "type": "split",
+    "children": [
+      {
+        "id": "da0f020c4368f1bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95c50587d24c8086",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "task-genius-view",
+              "state": {},
+              "pinned": true,
+              "icon": "inbox",
+              "title": "Inbox"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "343941f42a91f0cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d575e9276f54544",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42f20eab59095b3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "7abf62033653f26d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 345.5
+  },
+  "right": {
+    "id": "060b255d845fbf89",
+    "type": "split",
+    "children": [
+      {
+        "id": "a794524b2d06eaf2",
+        "type": "tabs",
+        "dimension": 43.534057255676196,
+        "children": [
+          {
+            "id": "6be39e0f099513f9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "2b36867b600edde1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9c40e81ddf0a5c77",
+        "type": "tabs",
+        "dimension": 56.465942744323804,
+        "children": [
+          {
+            "id": "49c1ecd2479537dd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2-Sandbox/20250728-cursor的配置-全局规则.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "20250728-cursor的配置-全局规则 的反向链接列表"
+            }
+          },
+          {
+            "id": "0969f3b4e3a5452f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2-Sandbox/20250728-cursor的配置-全局规则.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "20250728-cursor的配置-全局规则 的出链列表"
+            }
+          },
+          {
+            "id": "357471912e288bd2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "6ebeeec1f26822e1",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "quiet-outline"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 336.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": true,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "markdown-importer:打开 Markdown 格式转换器": true,
+      "random-note:开始漫游笔记": true,
+      "templates:插入模板": true,
+      "graph:查看关系图谱": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-kanban:创建新看板": false,
+      "obsidian-task-progress-bar:打开 Task Genius 视图": false,
+      "templater-obsidian:Templater": false,
+      "wucai-highlights-official:Start WuCai syncing": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "95c50587d24c8086",
+  "lastOpenFiles": [
+    "2-Sandbox/20250814-callout标题显示在大纲里.md",
+    "2-Sandbox/20251128-重置电脑后做的事情.md",
+    "Z-Configuration/一台电脑双GitHub账户配置.md",
+    "Z-Configuration/fonts/方正盛世楷书简体_Zhun.TTF",
+    "2-Sandbox/20250912-AI编程-编辑代码阶段.md",
+    "2-Sandbox/20250905-提示词-AI编程/20250728-AI编程-文档编写.md",
+    "2-Sandbox/20251103-MySQL在线练习网站.md",
+    "2-Sandbox/20250808-提示词工程-待整理/代码生成/优秀样例/提示词优秀样例-数据处理-代码生成.md",
+    "2-Sandbox/20250808-提示词工程-待整理/代码生成/复杂项目步骤/数据处理.md",
+    "2-Sandbox/20250905-提示词-AI编程/20250912-AI编程-检查代码阶段.md",
+    "2-Sandbox/20250905-提示词-AI编程/20250911-AI编程-测试环节.md",
+    "2-Sandbox/20250808-提示词工程-待整理/AI生成代码-提示词-思路和经验.md",
+    "2-Sandbox/20250808-提示词工程-待整理/提示词优化-经验.md",
+    "2-Sandbox/readme-Sandbox.md",
+    "2-Sandbox/20250728-cursor的配置-全局规则.md",
+    "2-Sandbox/20250709-cursor的配置-rules.md",
+    "2-Sandbox/20250709-如何利用cursor学习编程知识？.md",
+    "2-Sandbox/20250709-如何与cursor对话.md",
+    "2-Sandbox/20250724-与cursor对话-调整沟通方式.md",
+    "2-Sandbox/20250905-提示词-背景信息/20250905-提示词-背景信息-外贸集团.md",
+    "2-Sandbox/20250829-如何全局安装mineru.md",
+    "2-Sandbox/20250905-提示词-背景信息",
+    "2-Sandbox/20250905-提示词-AI编程",
+    "2-Sandbox/20250806-uv创建虚拟环境.md",
+    "2-Sandbox/20250731-uv安装到F盘教程.md",
+    "2-Sandbox/20250827-ES中如何实现多模态向量的以图搜图.md",
+    "2-Sandbox/uv安装包的各种方法.md",
+    "2-Sandbox/uv_test_demo",
+    "2-Sandbox/20250717-学习在 v2rayN 中设置路由规则.md",
+    "2-Sandbox/20250828-辅助学习提示词-软考.md",
+    "Z-Configuration/Scripts/js/InsertCallout.js",
+    "Z-Configuration/Scripts/js",
+    "Z-Configuration/0Template/0Template - 快捷方式.lnk",
+    "Z-Configuration/components/logs/2025-08-18.components.log",
+    "Z-Configuration/components/logs/2025-07-28.components.log",
+    "Z-Configuration/Scripts/AutoHotkey/TasksQuickCapture.ahk",
+    "数据处理/流程设计/产品开发部数据处理-整体框架.canvas",
+    "Z说明配置文件/excalidraw/scripts/Downloaded/UploadImageToPicGo.svg",
+    "Z说明配置文件/excalidraw/scripts/Downloaded/QuickSwitchFrame.svg",
+    "Z说明配置文件/excalidraw/scripts/Downloaded/README.svg",
+    "未命名.canvas",
+    "跨部门合作/财务/attachments/Pasted Image 20250313144820_291.png",
+    "跨部门合作/财务/attachments/Pasted Image 20250313145903_143.png",
+    "跨部门合作/财务/attachments/Pasted Image 20250313150503_720.png",
+    "graphs/Excalidraw/attachments/Pasted Image 20250313105740_956.png",
+    "graphs/Excalidraw/attachments/Pasted Image 20250226171951_684.png",
+    "graphs/rag/示意图.canvas",
+    "A临时任务/名片生成/制作名片旧的流程.canvas",
+    "2025任务/学习平台/学习平台-流程.canvas",
+    "A日常任务/谷歌插件推荐/attachments/Pasted image 20241213135344.png",
+    "A日常任务/谷歌插件推荐/attachments/Pasted image 20241213135534.png",
+    "A临时任务/名片生成/简化流程.canvas",
+    "A临时任务/名片生成/制作名片新的流程-接口.canvas",
+    "A临时任务/名片生成/制作名片新的流程.canvas",
+    "49字母异位词分组.canvas",
+    "347前 K 个高频元素.canvas"
+  ]
+}

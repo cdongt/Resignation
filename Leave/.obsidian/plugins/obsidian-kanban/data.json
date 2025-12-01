@@ -1,0 +1,21 @@
+{
+  "new-note-folder": "1后续需要再探索思考的内容",
+  "tag-colors": [],
+  "lane-width": 500,
+  "show-checkboxes": true,
+  "date-format": "MM-DD-YYYY",
+  "date-display-format": "MM-DD-YYYY",
+  "link-date-to-daily-note": true,
+  "date-picker-week-start": 1,
+  "show-relative-date": true,
+  "date-colors": [
+    {
+      "isToday": false,
+      "distance": 1,
+      "unit": "days",
+      "direction": "after"
+    }
+  ],
+  "metadata-keys": [],
+  "move-dates": true
+}

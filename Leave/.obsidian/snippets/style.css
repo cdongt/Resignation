@@ -1,0 +1,131 @@
+默认居中白板内容，排除代码块和 callout
+.canvas-node-content *:not(pre):not(code):not(.callout):not(.callout *) {
+  text-align: center;
+}
+
+/* 保持代码块默认样式 */
+.canvas-node-content pre,
+.canvas-node-content code {
+  text-align: left;
+  font-family: var(--font-monospace);
+  white-space: pre;
+}
+
+/* 保持 callout 默认样式 */
+.canvas-node-content .callout {
+  text-align: left;
+}
+
+
+/* 分割线 */
+.markdown-source-view.mod-cm6 hr,
+.markdown-rendered hr {
+  border: 0; 
+  height: 1.5px; 
+  /* background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0); */
+  /* background-image: linear-gradient(to right,#f1fbea, #b9f6d2, #59d941,#b9f6d2,#f1fbea); */
+  background-image: linear-gradient(
+    to right,
+    #eaf5e3 0%, 
+    #a6fcca 20%, 
+    #59d941 50%,
+    #a6fcca 80%,
+    #eaf5e3 100%);
+  /* box-shadow: 0 10px 10px 0 rgba(89, 217, 65, 0.10), 0 1px 2px 0 rgba(0,0,0,0.06); */
+
+}
+
+
+/* 标题背景色 */
+
+/* body.header-1-background .cm-header-1,
+body.header-1-background :is(.markdown-preview-view, .markdown-rendered) h1 {
+    width: 100%; 
+}
+
+
+
+
+
+body.header-2-background .cm-header-2,
+body.header-2-background :is(.markdown-preview-view, .markdown-rendered) h2 {
+    width: 100%; 
+}
+
+
+body.header-3-background .cm-header-3,
+body.header-3-background :is(.markdown-preview-view, .markdown-rendered) h3 {
+    width: 100%; 
+}
+
+
+body.header-4-background .cm-header-4,
+body.header-4-background :is(.markdown-preview-view, .markdown-rendered) h4 {
+    width: 100%; 
+} */
+
+
+
+
+/* Mermaid 图在所有视图中居中显示 */
+.markdown-preview-view .mermaid,
+.markdown-source-view .mermaid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mermaid 容器宽度自适应，避免溢出 */
+.mermaid {
+  max-width: 100%;
+  margin: 1em auto;
+}
+
+
+/* 调整 Callout 图标与标题对齐 */
+
+/* 统一图标和标题高度对齐 */
+.callout-title {
+  display: flex;
+  align-items: center; /* 关键点：图标和文字垂直居中 */
+  gap: 0.5em;
+  line-height: 1.4; /* 避免文字高度不一致 */
+  padding: 0.2em 0;
+}
+
+/* 图标本身作为 flex item 居中显示 */
+.callout-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1.2em; /* 图标大小相对字体 */
+  line-height: 1;
+}
+
+/* 标题文字优化 */
+.callout-title strong,
+.callout-title span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.4;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+.callout-icon {
+  transform: translateY(-1.2px); /* 往下或上微调，1px 通常够了 */
+}
+
+/* 调整 Callout 图标与标题对齐 */
+
+
+
+/* Callout 的标题文字颜色，和横条的背景色一致 */
+
+.callout-title {
+  color: rgb(var(--callout-color)) ;
+}
+
+

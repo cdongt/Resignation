@@ -1,0 +1,13 @@
+{
+  "autoExpand": true,
+  "liveReloadOnEdit": true,
+  "container": "span",
+  "parseNativeComments": true,
+  "commentedTextColorLight": "#baf2e1",
+  "commentedTextColorDark": "#74817d",
+  "commentColorLight": "#f3f367",
+  "commentColorDark": "#330202",
+  "showCommentWhenCtrlKeyPressed": true,
+  "showDefaultTagEditor": true,
+  "defaultTagEditorValue": "comment,"
+}

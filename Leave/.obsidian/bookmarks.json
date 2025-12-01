@@ -1,0 +1,106 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1744354325372,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1744354354735,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#2.4、强制类型转换",
+          "title": "### 2.4、强制类型转换"
+        },
+        {
+          "type": "file",
+          "ctime": 1744361089953,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#2.10、对象基础"
+        },
+        {
+          "type": "file",
+          "ctime": 1744601287082,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#2.9.4、跳转控制",
+          "title": "2.9.4、跳转控制"
+        },
+        {
+          "type": "file",
+          "ctime": 1744608622541,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#2.10.7、栈和堆梳理",
+          "title": "#### 2.10.7、栈和堆梳理"
+        },
+        {
+          "type": "file",
+          "ctime": 1744611578044,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#2.12.2、用构造函数创建对象",
+          "title": "#### 2.12.2、用构造函数创建对象"
+        },
+        {
+          "type": "file",
+          "ctime": 1744611832306,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#^3eb546",
+          "title": "构造函数：构造函数就是一个普通的函数，创建方式和普通函数没有区别，不同的是构造函数习惯上首字母大写，构造函数和普通函数的还有一个区别就是调用方式的不同，普通函数是直接调用，而构造函数需要使用new关键字来调用。"
+        },
+        {
+          "type": "file",
+          "ctime": 1744612129359,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#^6c715a",
+          "title": "我们可以使用 instanceof 运算符检查一个对象是否是一个类的实例"
+        },
+        {
+          "type": "file",
+          "ctime": 1744617386298,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#^2f65ef",
+          "title": "那原型（prototype）到底是什么呢？"
+        },
+        {
+          "type": "file",
+          "ctime": 1744617899812,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#2.12.4、原型链",
+          "title": "#### 2.12.4、原型链"
+        }
+      ],
+      "title": "待整理的重点（reading）"
+    },
+    {
+      "type": "group",
+      "ctime": 1744361101173,
+      "items": [],
+      "title": "难点（reading）"
+    },
+    {
+      "type": "group",
+      "ctime": 1744362554366,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1744365121334,
+          "path": "知识繁星/前端/JavaScript/外部参考学习信息/04-03-学习JavaScript这一篇就够了-CSDN博客.md",
+          "subpath": "#^2e63dd",
+          "title": "> [!question]+ 遍历的时候为什么 person.key 就是`undefine`数据类型"
+        }
+      ],
+      "title": "遇到的问题（reading）"
+    },
+    {
+      "type": "group",
+      "ctime": 1748920007309,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1748920020225,
+          "path": "数据处理/流程设计/Python处理多格式数据工厂信息方案.md",
+          "subpath": "#2. 数据流程设计"
+        }
+      ],
+      "title": "数据处理"
+    }
+  ]
+}

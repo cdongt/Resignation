@@ -1,0 +1,81 @@
+
+/*---设定评论样式---*/
+/* 评论样式  */
+.callout[data-callout="ainotes"] {
+    --callout-color: rgba(238, 231, 187, 0.8);
+    --callout-icon: quote;
+    background-color: rgb(248, 253, 232); /* 浅绿色背景 */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+ /*---设定悬浮框样式---*/ 
+.callout[data-callout="ainotes"]:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 评论框中的划线文字原文 */
+.callout[data-callout="ainotes"] .callout-title-inner {
+	padding: 10px;
+	font-size: 1.0em;
+	/* font-weight: 500; */
+	/* font-weight: normal; */
+	line-height: 1.8; /* 优化行距，适合阅读 */
+	color: #000000; 
+}
+
+/* 评论框中的 评论文字 */
+.callout[data-callout="ainotes"] .callout-content {
+	font-weight: 300;
+	color: #558b2f;
+	font-size: 1.0em;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	line-height: 1.8; /* 行距优化 */
+}
+
+
+ /*---设定下划线的样式---*/ 
+/* 划线样式 */
+.callout[data-callout="ainotes"] .callout-content hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(102, 187, 106, 0.4); /* 绿色细线 */
+    border-bottom: 1px solid rgba(241, 251, 234, 0.6);
+}
+
+/* 鼠标交互时显示日期  */
+.callout[data-callout="ainotes"]:hover > .callout-content > ul > li:last-child {
+	display: inline-flex;
+	float: right;
+	background-color: #33691e; /* 深绿色背景 */
+	color: rgb(220, 227, 208);
+	font-size: 0.7em;
+	padding: 2px 6px;
+	border-radius: 4px; /* 小圆角增加细节 */
+}
+
+/*---设定日期预览不显示---*/ 
+.callout[data-callout="ainotes"] > .callout-content > ul > li:last-child {
+	display: none;
+}
+
+/*---设定日期悬浮显示---*/ 
+.callout[data-callout="ainotes"]:hover > .callout-content > ul > li:last-child {
+	display: inline-flex;
+	float: right;
+	background-color: rgb(191, 230, 189);
+	color: rgb(0, 0, 0);
+	font-size: 0.7em;
+}
+
+/*---callout=metadata---*//*---callout=metadata---*//*---callout=metadata---*/
+/*---这是一个去icon写法，在写callout类型时加|noicon就可以，对任何callout包括默认的都适用---*/
+/*---有别的写法---*/
+.callout:is([data-callout-metadata^="noicon"]) .callout-icon {
+	display: none;
+}

@@ -1,0 +1,152 @@
+{
+  "callouts": {
+    "custom": [
+      "line",
+      "blue",
+      "green",
+      "orange",
+      "red",
+      "purple",
+      "gray",
+      "lightgray",
+      "yellow",
+      "pink",
+      "brown",
+      "black",
+      "cyan"
+    ],
+    "settings": {
+      "timeline": [
+        {
+          "changes": {
+            "icon": "lucide-bug"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "227, 107, 167"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "31, 172, 139"
+          }
+        }
+      ],
+      "line": [
+        {
+          "changes": {
+            "icon": "lucide-blinds",
+            "color": "85, 211, 39"
+          }
+        }
+      ],
+      "blue": [
+        {
+          "changes": {
+            "icon": "lucide-apple"
+          }
+        }
+      ],
+      "green": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "68, 207, 110"
+          }
+        }
+      ],
+      "orange": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "233, 151, 63"
+          }
+        }
+      ],
+      "red": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "251, 70, 76"
+          }
+        }
+      ],
+      "purple": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "168, 130, 255"
+          }
+        }
+      ],
+      "gray": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "lightgray": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "158, 158, 158"
+          }
+        }
+      ],
+      "yellow": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "208, 181, 48"
+          }
+        }
+      ],
+      "pink": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "227, 107, 167"
+          }
+        }
+      ],
+      "brown": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "161, 106, 73"
+          }
+        }
+      ],
+      "black": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "0, 0, 0"
+          }
+        }
+      ],
+      "cyan": [
+        {
+          "changes": {
+            "icon": "lucide-apple",
+            "color": "83, 223, 221"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

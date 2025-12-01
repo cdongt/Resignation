@@ -1,0 +1,27 @@
+{
+  "accentColor": "#5a7a33",
+  "baseFontSize": 16,
+  "cssTheme": "Blue Topaz",
+  "theme": "moonstone",
+  "interfaceFontFamily": "方正盛世楷书简体_准",
+  "textFontFamily": "方正盛世楷书简体_准",
+  "monospaceFontFamily": "Consolas",
+  "enabledCssSnippets": [
+    "wucai",
+    "excalidraw_autodisplay",
+    "excalidraw_autohide",
+    "callout_note",
+    "callout-table-fix",
+    "separator",
+    "hearder-bg",
+    "weread",
+    "info",
+    "center-excalidraw",
+    "printImg",
+    "style",
+    "grid-line"
+  ],
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "baseFontSizeAction": true
+}

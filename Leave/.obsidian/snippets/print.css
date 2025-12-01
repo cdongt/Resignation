@@ -1,0 +1,149 @@
+
+@media print {
+
+	/* === 标题样式（h1 居中。h2居中轻盈）=== */
+  
+	h1 {
+	  text-align: center;
+	}
+  
+
+  
+	h2{
+	  text-align: center;
+	}
+  
+	/* 保持标题和正文的连续性 */
+	h1, h2 {
+	  page-break-after: avoid;
+	}
+  
+	/* === 段落文本保护 === */
+	p {
+	  orphans: 2;
+	  widows: 2;
+	}
+  
+	/* === 表格、图片、代码块、引用块避免分页中断 === */
+	table, img, pre, blockquote,  ul, ol {
+	  break-inside: avoid;
+	  page-break-inside: avoid;
+	}
+
+
+
+	  
+	  
+	  
+	  
+	  
+  
+	/* === 表格样式 === */
+	table {
+	  width: 100%;
+	  border-collapse: collapse;
+	  margin: 1em 0;
+	}
+  
+	th, td {
+	  border: 1px solid #999;
+	  padding: 6px;
+	  text-align: left;
+	}
+  
+	th {
+	  background-color: #f0f0f0;
+	  font-weight: bold;
+	}
+  
+	/* === 图片样式 === */
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  
+	/* === 代码块样式 === */
+	pre {
+	  background: #f8f8f8;
+	  padding: 8px;
+	  border-radius: 4px;
+	  font-family: "Courier New", monospace;
+	}
+  
+	/* === 引用块样式 === */
+	blockquote {
+	  border-left: 3px solid #ccc;
+	  margin: 1em 0;
+	  padding-left: 1em;
+	  color: #555;
+	  background: #fafafa;
+	}
+
+
+
+		/* === Callout 容器 === */
+	callout {
+		display: block !important;
+		break-inside: avoid;
+		page-break-inside: avoid;
+		overflow: hidden;
+		/* 创建新的块级格式化上下文 */
+		contain: layout;
+		/* 最小高度保护（可选） */
+		min-height: 50px; 
+	}
+
+	/* === Callout 标题（假设标题类名为 .callout-title）=== */
+	callout .callout-title {
+		page-break-after: avoid; /* 标题后禁止分页 */
+		
+	}
+
+	/* === Callout 图片 === */
+	callout img {
+		max-width: 100% !important;
+		max-height: calc(100vh - 150px) !important; /* 根据页面动态调整 */
+		object-fit: contain; /* 保持比例不变形 */
+		height: auto;
+		display: block;
+		margin: 5px auto;
+		break-inside: avoid;
+		page-break-inside: avoid;
+		/* 防止图片单独成页 */
+		page-break-before: avoid; 
+	}
+
+	/* === Callout 内容容器 === */
+	callout .callout-content {
+		page-break-inside: avoid;
+		break-inside: avoid;
+	}
+
+
+
+
+
+
+
+	/* === 页边距 ===*/
+	@page {
+		 /* 四边统一边距 */
+		 /* margin: 0.2cm; */
+		/* 或分别设置 */
+		margin: 0.98cm 0.2cm 0cm 0.2cm; /* 上 右 下 左 */
+	  }
+	
+	  /* 针对标题背景的特殊适配 */
+	h2, h3 {
+		padding: 0.5em 10px;      /* 保持内容与背景边界的间距 */
+		box-sizing: border-box;   /* 确保 padding 包含在宽度内 */
+		width: calc(100% - 20px); /* 抵消左右 padding 值 */
+		margin-left: auto;        /* 水平居中 */
+		margin-right: auto;
+	  }
+	
+
+
+
+  }
+  

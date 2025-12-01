@@ -1,0 +1,1160 @@
+{
+  "workspaces": {
+    "2024-8-12": {
+      "main": {
+        "id": "5fd8823d5eec0fca",
+        "type": "split",
+        "children": [
+          {
+            "id": "b0d2275b6e977338",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bbb48c21c19ef366",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "A专业技能/5CodingSummary/未命名.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "b26f0f9b31765a0f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0Template/Coding_Summary.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "343941f42a91f0cd",
+        "type": "split",
+        "children": [
+          {
+            "id": "5d575e9276f54544",
+            "type": "tabs",
+            "dimension": 65.6701030927835,
+            "children": [
+              {
+                "id": "42f20eab59095b3f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7abf62033653f26d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "de3b5538448b00d5",
+            "type": "tabs",
+            "dimension": 34.329896907216494,
+            "children": [
+              {
+                "id": "c0679135829a3b82",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "584c1a88144b0fd5",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "A专业技能/5CodingSummary/未命名.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 301.5
+      },
+      "right": {
+        "id": "060b255d845fbf89",
+        "type": "split",
+        "children": [
+          {
+            "id": "a794524b2d06eaf2",
+            "type": "tabs",
+            "dimension": 38.8560157790927,
+            "children": [
+              {
+                "id": "7591ddfaa8057f7d",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "25a1e6550009250b",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "f171fd9ee07afce9",
+            "type": "tabs",
+            "dimension": 31.45956607495069,
+            "children": [
+              {
+                "id": "2be166f1332f1550",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1b7d19541dbd8b9a",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "7712be4de7aa29a8",
+            "type": "tabs",
+            "dimension": 29.68441814595661,
+            "children": [
+              {
+                "id": "03f8b83a2b2ed744",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "A专业技能/5CodingSummary/未命名.md",
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "65343bf21be7ac36",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "A专业技能/5CodingSummary/未命名.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "595a1d1fc0b3cc96",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 520.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "canvas:新建白板": false,
+          "command-palette:打开命令面板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "markdown-importer:打开 Markdown 格式转换器": true,
+          "random-note:开始漫游笔记": false,
+          "templates:插入模板": false,
+          "graph:查看关系图谱": false,
+          "obsidian-weread-plugin:同步微信读书笔记": false,
+          "obsidian-kanban:创建新看板": false,
+          "remotely-save:Remotely Save": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "bbb48c21c19ef366",
+      "mtime": "2024-08-12T11:16:38+08:00"
+    },
+    "2024-8-13": {
+      "main": {
+        "id": "5fd8823d5eec0fca",
+        "type": "split",
+        "children": [
+          {
+            "id": "b0d2275b6e977338",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1dc4e0b59e6ad75a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "A专业技能/5CodingSummary/HJ1字符串最后一个单词的长度.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5af0aa6d5b81652b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "A专业技能/4机器学习/1代码编写思路/思路介绍/LinearRegression.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "12697c76ba9d34f5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0Template/通用文档属性.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "84d5d36cf6052195",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1Daily/2024-08-13.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "343941f42a91f0cd",
+        "type": "split",
+        "children": [
+          {
+            "id": "5d575e9276f54544",
+            "type": "tabs",
+            "dimension": 65.6701030927835,
+            "children": [
+              {
+                "id": "42f20eab59095b3f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7abf62033653f26d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "d2b32a5a8554893f",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "de3b5538448b00d5",
+            "type": "tabs",
+            "dimension": 34.329896907216494,
+            "children": [
+              {
+                "id": "c0679135829a3b82",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "584c1a88144b0fd5",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "A专业技能/4机器学习/1代码编写思路/思路介绍/LinearRegression.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 283.5
+      },
+      "right": {
+        "id": "060b255d845fbf89",
+        "type": "split",
+        "children": [
+          {
+            "id": "a794524b2d06eaf2",
+            "type": "tabs",
+            "dimension": 33.76110562685094,
+            "children": [
+              {
+                "id": "7591ddfaa8057f7d",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "b4fad2643b9e9efc",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "bd4586955db21d1e",
+            "type": "tabs",
+            "dimension": 32.57650542941757,
+            "children": [
+              {
+                "id": "2be166f1332f1550",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "7712be4de7aa29a8",
+            "type": "tabs",
+            "dimension": 33.66238894373149,
+            "children": [
+              {
+                "id": "03f8b83a2b2ed744",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "A专业技能/4机器学习/1代码编写思路/思路介绍/LinearRegression.md",
+                    "collapseAll": false,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "65343bf21be7ac36",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "A专业技能/4机器学习/1代码编写思路/思路介绍/LinearRegression.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "595a1d1fc0b3cc96",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 488.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "canvas:新建白板": false,
+          "command-palette:打开命令面板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "markdown-importer:打开 Markdown 格式转换器": true,
+          "random-note:开始漫游笔记": false,
+          "templates:插入模板": false,
+          "graph:查看关系图谱": false,
+          "obsidian-weread-plugin:同步微信读书笔记": false,
+          "obsidian-kanban:创建新看板": false,
+          "remotely-save:Remotely Save": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "templater-obsidian:Templater": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "5af0aa6d5b81652b",
+      "mtime": "2024-08-14T09:16:29+08:00"
+    },
+    "2025-02-17": {
+      "main": {
+        "id": "5fd8823d5eec0fca",
+        "type": "split",
+        "children": [
+          {
+            "id": "30d744050a8b8402",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1577904b8d9d1806",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "graphs/Excalidraw/流程示意图 2025-02-26.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "流程示意图 2025-02-26.excalidraw"
+                }
+              },
+              {
+                "id": "002c4396d6f8ed8c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "语法查询/语法速查表.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "语法速查表"
+                }
+              },
+              {
+                "id": "5f470407a551d04d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1Daily/2025-03-03.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-03-03"
+                }
+              },
+              {
+                "id": "aaa87cdc7e93764c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ALIYUN/ES/Elasticsearch-Inference-API.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Elasticsearch-Inference-API"
+                }
+              },
+              {
+                "id": "39583e0ec3db87dc",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "graphs/Excalidraw/流程示意图 2025-02-26.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "流程示意图 2025-02-26.excalidraw"
+                }
+              },
+              {
+                "id": "6c470bc76f923de0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ALIYUN/ES/OpenSearch.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "OpenSearch"
+                }
+              },
+              {
+                "id": "24202c2a3fcd548a",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://libraries.excalidraw.com/?target=_blank&referrer=app%3A%2F%2Fobsidian.md&useHash=true&token=Ad7294W9x39hDmQ4ObcMq&theme=light&version=2&sort=default",
+                    "title": "Excalidraw Libraries",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Excalidraw Libraries"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "343941f42a91f0cd",
+        "type": "split",
+        "children": [
+          {
+            "id": "5d575e9276f54544",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "42f20eab59095b3f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#架构",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "7abf62033653f26d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "6ebeeec1f26822e1",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              },
+              {
+                "id": "2b36867b600edde1",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 390.5
+      },
+      "right": {
+        "id": "060b255d845fbf89",
+        "type": "split",
+        "children": [
+          {
+            "id": "a794524b2d06eaf2",
+            "type": "tabs",
+            "dimension": 55.86538461538461,
+            "children": [
+              {
+                "id": "6be39e0f099513f9",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "d5667bdf5192b1e4",
+                "type": "leaf",
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {},
+                  "icon": "calendar-clock",
+                  "title": "Tasks Timeline"
+                }
+              }
+            ]
+          },
+          {
+            "id": "9c40e81ddf0a5c77",
+            "type": "tabs",
+            "dimension": 44.13461538461539,
+            "children": [
+              {
+                "id": "49c1ecd2479537dd",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "模型学习/激活函数/ReLU激活函数.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "ReLU激活函数 的反向链接列表"
+                }
+              },
+              {
+                "id": "0969f3b4e3a5452f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "模型学习/激活函数/softmax激活函数.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "softmax激活函数 的出链列表"
+                }
+              },
+              {
+                "id": "357471912e288bd2",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "关系图谱"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 438.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": true,
+          "canvas:新建白板": false,
+          "command-palette:打开命令面板": false,
+          "daily-notes:打开/创建今天的日记": true,
+          "markdown-importer:打开 Markdown 格式转换器": true,
+          "random-note:开始漫游笔记": true,
+          "templates:插入模板": true,
+          "graph:查看关系图谱": false,
+          "workspaces:管理工作区布局": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:创建新看板": false,
+          "templater-obsidian:Templater": false,
+          "wucai-highlights-official:Start WuCai syncing": false,
+          "callout-manager:Insert Callout": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false
+        }
+      },
+      "floating": {
+        "id": "3f91859c8865328f",
+        "type": "floating",
+        "children": [
+          {
+            "id": "005f8561bdb01d31",
+            "type": "window",
+            "children": [
+              {
+                "id": "55ddb42c573a473d",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "6d4b95774567d9d9",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://github.com/Leonezz/obsidian-tasks-calendar-wrapper",
+                        "title": "GitHub - Leonezz/obsidian-tasks-calendar-wrapper: This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and renderring options.",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "GitHub - Leonezz/obsidian-tasks-calendar-wrapper: This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and renderring options."
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical",
+            "x": 448,
+            "y": 120,
+            "width": 1024,
+            "height": 800,
+            "maximize": false,
+            "zoom": 0
+          }
+        ]
+      },
+      "active": "6be39e0f099513f9",
+      "mtime": "2025-03-04T09:40:32+08:00"
+    },
+    "2025-03-04": {
+      "main": {
+        "id": "5fd8823d5eec0fca",
+        "type": "split",
+        "children": [
+          {
+            "id": "30d744050a8b8402",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1577904b8d9d1806",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "graphs/Excalidraw/流程示意图 2025-02-26.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "流程示意图 2025-02-26.excalidraw"
+                }
+              },
+              {
+                "id": "002c4396d6f8ed8c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "语法查询/语法速查表.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "语法速查表"
+                }
+              },
+              {
+                "id": "5f470407a551d04d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1Daily/2025-03-03.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-03-03"
+                }
+              },
+              {
+                "id": "aaa87cdc7e93764c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ALIYUN/ES/Elasticsearch-Inference-API.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Elasticsearch-Inference-API"
+                }
+              },
+              {
+                "id": "39583e0ec3db87dc",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "graphs/Excalidraw/流程示意图 2025-02-26.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "流程示意图 2025-02-26.excalidraw"
+                }
+              },
+              {
+                "id": "6c470bc76f923de0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ALIYUN/ES/OpenSearch.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "OpenSearch"
+                }
+              },
+              {
+                "id": "24202c2a3fcd548a",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://libraries.excalidraw.com/?target=_blank&referrer=app%3A%2F%2Fobsidian.md&useHash=true&token=Ad7294W9x39hDmQ4ObcMq&theme=light&version=2&sort=default",
+                    "title": "Excalidraw Libraries",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Excalidraw Libraries"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "343941f42a91f0cd",
+        "type": "split",
+        "children": [
+          {
+            "id": "5d575e9276f54544",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "42f20eab59095b3f",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#架构",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "7abf62033653f26d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "6ebeeec1f26822e1",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 390.5
+      },
+      "right": {
+        "id": "060b255d845fbf89",
+        "type": "split",
+        "children": [
+          {
+            "id": "a794524b2d06eaf2",
+            "type": "tabs",
+            "dimension": 55.86538461538461,
+            "children": [
+              {
+                "id": "6be39e0f099513f9",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "d5667bdf5192b1e4",
+                "type": "leaf",
+                "state": {
+                  "type": "tasks_timeline_view",
+                  "state": {},
+                  "icon": "calendar-clock",
+                  "title": "Tasks Timeline"
+                }
+              },
+              {
+                "id": "2b36867b600edde1",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "9c40e81ddf0a5c77",
+            "type": "tabs",
+            "dimension": 44.13461538461539,
+            "children": [
+              {
+                "id": "49c1ecd2479537dd",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "模型学习/激活函数/ReLU激活函数.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": true,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "ReLU激活函数 的反向链接列表"
+                }
+              },
+              {
+                "id": "0969f3b4e3a5452f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "模型学习/激活函数/softmax激活函数.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "softmax激活函数 的出链列表"
+                }
+              },
+              {
+                "id": "357471912e288bd2",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "关系图谱"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 438.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": true,
+          "canvas:新建白板": false,
+          "command-palette:打开命令面板": false,
+          "daily-notes:打开/创建今天的日记": true,
+          "markdown-importer:打开 Markdown 格式转换器": true,
+          "random-note:开始漫游笔记": true,
+          "templates:插入模板": true,
+          "graph:查看关系图谱": false,
+          "workspaces:管理工作区布局": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:创建新看板": false,
+          "templater-obsidian:Templater": false,
+          "wucai-highlights-official:Start WuCai syncing": false,
+          "callout-manager:Insert Callout": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false
+        }
+      },
+      "floating": {
+        "id": "3f91859c8865328f",
+        "type": "floating",
+        "children": [
+          {
+            "id": "005f8561bdb01d31",
+            "type": "window",
+            "children": [
+              {
+                "id": "55ddb42c573a473d",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "6d4b95774567d9d9",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://github.com/Leonezz/obsidian-tasks-calendar-wrapper",
+                        "title": "GitHub - Leonezz/obsidian-tasks-calendar-wrapper: This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and renderring options.",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "GitHub - Leonezz/obsidian-tasks-calendar-wrapper: This plugin currently provides a timeline view to display your tasks from your obsidian valut, with customizable filters and renderring options."
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical",
+            "x": 448,
+            "y": 120,
+            "width": 1024,
+            "height": 800,
+            "maximize": false,
+            "zoom": 0
+          }
+        ]
+      },
+      "active": "5f470407a551d04d",
+      "mtime": "2025-03-04T09:47:22+08:00"
+    }
+  },
+  "active": "2025-03-04"
+}

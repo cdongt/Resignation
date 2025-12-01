@@ -1,0 +1,30 @@
+{
+  "showTitle": true,
+  "maxLevel": "6",
+  "displayHeader": false,
+  "displayFooter": false,
+  "headerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"title\"></span></div>",
+  "footerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"pageNumber\"></span> / <span class=\"totalPages\"></span></div>",
+  "printBackground": false,
+  "generateTaggedPDF": false,
+  "displayMetadata": false,
+  "debug": false,
+  "isTimestamp": true,
+  "enabledCss": true,
+  "concurrency": "5",
+  "prevConfig": {
+    "pageSize": "A4",
+    "marginType": "1",
+    "showTitle": true,
+    "open": true,
+    "scale": 60,
+    "landscape": false,
+    "marginTop": "2",
+    "marginBottom": "3",
+    "marginLeft": "2",
+    "marginRight": "3",
+    "displayHeader": false,
+    "displayFooter": false,
+    "cssSnippet": "0"
+  }
+}
