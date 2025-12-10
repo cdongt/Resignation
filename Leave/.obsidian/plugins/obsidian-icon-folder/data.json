@@ -44,12 +44,11 @@
   "0收集箱": "LiBox",
   "1-CollectionBox/readme-CollectionBox.md": "LiPin",
   "2-Sandbox/readme-Sandbox.md": "LiPin",
-  "3-Zettelkasten/readme-Zettelkasten.md": "LiPin",
-  "4-MainConcepts/readme-MainConcepts.md": "LiPin",
-  "5-Projects/readme-Projects.md": "LiPin",
-  "6-CodeSnippets/readme-Codesnipastes.md": "LiPin",
   "2-Sandbox": "LiCodesandbox",
   "0Tasks": "LiCalendarCheck",
   "Z-DirectoryAdjustment/结构文件说明.md": "LiPin",
-  "1-CollectionBox": "LiAppWindow"
+  "1-CollectionBox": "LiAppWindow",
+  "3-Modules/readme-Zettelkasten.md": "LiPin",
+  "4-Projects/readme-Projects.md": "LiPin",
+  "5-CodeSnippets/readme-Codesnipastes.md": "LiPin"
 }

@@ -1,9 +1,28 @@
 {
+  "changelog": {
+    "enabled": true,
+    "lastVersion": "9.13.0"
+  },
   "progressBarDisplayMode": "both",
   "supportHoverToShowProgressInfo": true,
   "addProgressBarToNonTaskBullet": false,
   "addTaskProgressBarToHeading": true,
+  "addProgressBarToProjectsView": false,
   "enableProgressbarInReadingMode": true,
+  "notifications": {
+    "enabled": false,
+    "dailySummary": {
+      "enabled": true,
+      "time": "09:00"
+    },
+    "perTask": {
+      "enabled": false,
+      "leadMinutes": 10
+    }
+  },
+  "desktopIntegration": {
+    "enableTray": false
+  },
   "countSubLevel": true,
   "displayMode": "bracketFraction",
   "customFormat": "[{{COMPLETED}}/{{TOTAL}}]",
@@ -60,6 +79,7 @@
   "useOnlyCountMarks": false,
   "onlyCountTaskMarks": "x|X|>|/",
   "enableTaskStatusSwitcher": true,
+  "enableIndicatorWithCheckbox": false,
   "enableCustomTaskMarks": true,
   "enableTextMarkInSourceMode": false,
   "enableCycleCompleteStatus": true,
@@ -92,6 +112,29 @@
   },
   "excludeMarksFromCycle": [
     "Confused"
+  ],
+  "statusCycles": [
+    {
+      "id": "default-cycle",
+      "name": "Default Cycle",
+      "description": "Standard task lifecycle with all states",
+      "priority": 0,
+      "cycle": [
+        "Not Started",
+        "In Progress",
+        "Completed",
+        "Abandoned",
+        "Planned"
+      ],
+      "marks": {
+        "Not Started": " ",
+        "In Progress": "/",
+        "Completed": "x",
+        "Abandoned": "-",
+        "Planned": "?"
+      },
+      "enabled": true
+    }
   ],
   "enableTaskGeniusIcons": true,
   "enablePriorityPicker": true,
@@ -264,6 +307,7 @@
   "useRelativeTimeForDate": false,
   "ignoreHeading": "",
   "focusHeading": "",
+  "enableIndexer": true,
   "enableView": true,
   "enableInlineEditor": true,
   "enableDynamicMetadataPositioning": true,
@@ -488,6 +532,16 @@
           "notUrgentNotImportant": "#6c757d"
         }
       }
+    },
+    {
+      "id": "working-on",
+      "name": "进行中",
+      "icon": "timer",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
     }
   ],
   "reviewSettings": {},
@@ -713,6 +767,110 @@
     "skipOnboarding": true,
     "completedAt": ""
   },
+  "fileSource": {
+    "enabled": false,
+    "recognitionStrategies": {
+      "metadata": {
+        "enabled": true,
+        "taskFields": [
+          "dueDate",
+          "status",
+          "priority",
+          "assigned"
+        ],
+        "requireAllFields": false
+      },
+      "tags": {
+        "enabled": true,
+        "taskTags": [
+          "#task",
+          "#actionable",
+          "#todo"
+        ],
+        "matchMode": "exact"
+      },
+      "templates": {
+        "enabled": false,
+        "templatePaths": [
+          "Templates/Task Template.md"
+        ],
+        "checkTemplateMetadata": true
+      },
+      "paths": {
+        "enabled": false,
+        "taskPaths": [
+          "Projects/",
+          "Tasks/"
+        ],
+        "matchMode": "prefix"
+      }
+    },
+    "metadataMappings": [],
+    "fileTaskProperties": {
+      "contentSource": "filename",
+      "stripExtension": true,
+      "defaultStatus": " ",
+      "preferFrontmatterTitle": true
+    },
+    "relationships": {
+      "enableChildRelationships": true,
+      "enableMetadataInheritance": true,
+      "inheritanceFields": [
+        "project",
+        "priority",
+        "context"
+      ]
+    },
+    "performance": {
+      "enableWorkerProcessing": true,
+      "enableCaching": true,
+      "cacheTTL": 300000
+    },
+    "statusMapping": {
+      "enabled": true,
+      "metadataToSymbol": {
+        "completed": "x",
+        "done": "x",
+        "finished": "x",
+        "in-progress": "/",
+        "in progress": "/",
+        "doing": "/",
+        "planned": "?",
+        "todo": "?",
+        "cancelled": "-",
+        "not-started": " ",
+        "not started": " "
+      },
+      "symbolToMetadata": {
+        "x": "completed",
+        "X": "completed",
+        "/": "in-progress",
+        ">": "in-progress",
+        "?": "planned",
+        "-": "cancelled",
+        " ": "not-started"
+      },
+      "autoDetect": true,
+      "caseSensitive": false
+    }
+  },
+  "fluentView": {
+    "enableFluent": true,
+    "workspaces": [
+      {
+        "id": "default",
+        "name": "Default",
+        "color": "#3498db"
+      }
+    ],
+    "fluentConfig": {
+      "enableWorkspaces": true,
+      "defaultWorkspace": "default",
+      "maxOtherViewsBeforeOverflow": 5
+    },
+    "useWorkspaceSideLeaves": false
+  },
+  "customCalendarViews": [],
   "dateMark": "📅",
   "alwaysCycleNewTasks": false,
   "addNumberToProgressBar": true,
@@ -963,5 +1121,21 @@
       }
     },
     "projectConfigMap": {}
+  },
+  "workspaces": {
+    "version": 2,
+    "defaultWorkspaceId": "ws_1765357700055_ksz1606di",
+    "activeWorkspaceId": "ws_1765357700055_ksz1606di",
+    "order": [
+      "ws_1765357700055_ksz1606di"
+    ],
+    "byId": {
+      "ws_1765357700055_ksz1606di": {
+        "id": "ws_1765357700055_ksz1606di",
+        "name": "Default",
+        "updatedAt": 1765357700055,
+        "settings": {}
+      }
+    }
   }
 }

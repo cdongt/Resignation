@@ -1,13 +1,12 @@
 {
-  "customFileOrder": {
+  "customOrder": {
     "/": [
       "0Tasks",
       "1-CollectionBox",
       "2-Sandbox",
-      "3-Zettelkasten",
-      "4-MainConcepts",
-      "5-Projects",
-      "6-CodeSnippets",
+      "3-Modules",
+      "4-Projects",
+      "5-CodeSnippets",
       "Z-Configuration",
       "Z-DirectoryAdjustment"
     ],
@@ -19,43 +18,26 @@
       "1-CollectionBox/readme-CollectionBox.md"
     ],
     "2-Sandbox": [],
-    "3-Zettelkasten": [
-      "3-Zettelkasten/readme-Zettelkasten.md"
+    "3-Modules": [
+      "3-Modules/readme-Zettelkasten.md"
     ],
-    "4-MainConcepts": [
-      "4-MainConcepts/readme-MainConcepts.md"
+    "4-Projects": [
+      "4-Projects/readme-Projects.md"
     ],
-    "5-Projects": [
-      "5-Projects/readme-Projects.md"
-    ],
-    "6-CodeSnippets": [
-      "6-CodeSnippets/readme-Codesnipastes.md"
+    "5-CodeSnippets": [
+      "5-CodeSnippets/readme-Codesnipastes.md"
     ],
     "Z-Configuration": [
-      "Z-Configuration/Obsidian",
       "Z-Configuration/0Template",
       "Z-Configuration/1Calendar",
       "Z-Configuration/excalidraw",
       "Z-Configuration/fonts",
       "Z-Configuration/Scripts",
-      "Z-Configuration/tasksCalendar",
-      "Z-Configuration/20250724-everything语法.md",
-      "Z-Configuration/手机端同步.md",
-      "Z-Configuration/一台电脑双GitHub账户配置.md",
-      "Z-Configuration/obsidian常用语法查询.md"
+      "Z-Configuration/tasksCalendar"
     ],
     "Z-Configuration/0Template": [
-      "Z-Configuration/0Template/概念笔记模板.md",
-      "Z-Configuration/0Template/好例子记录模板.md",
       "Z-Configuration/0Template/每月计划更新.md",
       "Z-Configuration/0Template/每月开发记录.md",
-      "Z-Configuration/0Template/用列表显示多行输入.md",
-      "Z-Configuration/0Template/语法笔记模板.md",
-      "Z-Configuration/0Template/Books (Templater Advanced Version).md",
-      "Z-Configuration/0Template/Books (Templater Basic Version).md",
-      "Z-Configuration/0Template/Capture.md",
-      "Z-Configuration/0Template/Coding_Summary.md",
-      "Z-Configuration/0Template/DailyNote-topics.md",
       "Z-Configuration/0Template/DailyNote.md"
     ],
     "Z-Configuration/1Calendar": [
@@ -92,19 +74,16 @@
       "Z-Configuration/fonts/字魂武林江湖体(商用需授权).ttf",
       "Z-Configuration/fonts/Muyao-Softbrush-2.ttf"
     ],
-    "Z-Configuration/Obsidian": [
-      "Z-Configuration/Obsidian/20250829-CODE库-关于Blue主题的修改.md"
-    ],
     "Z-Configuration/Scripts": [
-      "Z-Configuration/Scripts/js",
-      "Z-Configuration/Scripts/AutoHotkey"
+      "Z-Configuration/Scripts/AutoHotkey",
+      "Z-Configuration/Scripts/js"
     ],
     "Z-Configuration/Scripts/AutoHotkey": [
       "Z-Configuration/Scripts/AutoHotkey/TasksQuickCapture.ahk"
     ],
     "Z-Configuration/Scripts/js": [
-      "Z-Configuration/Scripts/js/InsertCode.js",
-      "Z-Configuration/Scripts/js/InsertCallout.js"
+      "Z-Configuration/Scripts/js/InsertCallout.js",
+      "Z-Configuration/Scripts/js/InsertCode.js"
     ],
     "Z-Configuration/tasksCalendar": [
       "Z-Configuration/tasksCalendar/view.css",
@@ -114,6 +93,7 @@
       "Z-DirectoryAdjustment/结构文件说明.md"
     ]
   },
-  "draggingEnabled": true,
-  "selectedSortOrder": "manual-sorting"
+  "sortOrder": "customOrder",
+  "debugMode": false,
+  "newItemPlacement": "top"
 }
