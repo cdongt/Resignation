@@ -37,7 +37,6 @@
   "blue-topaz-theme@@background-markdown-page-theme-dark-custom": "url(\"app://local/E:/beautyUI/壁纸/清++董诰秋花四首图轴.jpg\")",
   "blue-topaz-theme@@background-markdown-page-theme-light-custom": "url(\"app://local/E:/beautyUI/壁纸/清++董诰秋花四首图轴.jpg\")",
   "blue-topaz-theme@@toggle-nonoverlapping-bg": false,
-  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-outline",
   "blue-topaz-theme@@show-url-after-link": true,
   "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
   "blue-topaz-theme@@text-indentation-two-em": false,
@@ -167,5 +166,6 @@
   "blue-topaz-theme@@print-h3-color@@light": "#44864F",
   "seasonal-themes@@season-selector": "spring-theme",
   "seasonal-themes@@disable-scrollbars": false,
-  "blue-topaz-theme@@h3-toggle-short-underline": false
+  "blue-topaz-theme@@h3-toggle-short-underline": false,
+  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-border-left"
 }

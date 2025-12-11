@@ -1,7 +1,16 @@
+
+/* =======================================  canvas 设置  ========================================== */
+
+
 默认居中白板内容，排除代码块和 callout
 .canvas-node-content *:not(pre):not(code):not(.callout):not(.callout *) {
   text-align: center;
 }
+
+
+
+/* =======================================  代码块 设置  ========================================== */
+
 
 /* 保持代码块默认样式 */
 .canvas-node-content pre,
@@ -11,10 +20,8 @@
   white-space: pre;
 }
 
-/* 保持 callout 默认样式 */
-.canvas-node-content .callout {
-  text-align: left;
-}
+/* =======================================  分割线 设置  ========================================== */
+
 
 
 /* 分割线 */
@@ -36,34 +43,7 @@
 }
 
 
-/* 标题背景色 */
-
-/* body.header-1-background .cm-header-1,
-body.header-1-background :is(.markdown-preview-view, .markdown-rendered) h1 {
-    width: 100%; 
-}
-
-
-
-
-
-body.header-2-background .cm-header-2,
-body.header-2-background :is(.markdown-preview-view, .markdown-rendered) h2 {
-    width: 100%; 
-}
-
-
-body.header-3-background .cm-header-3,
-body.header-3-background :is(.markdown-preview-view, .markdown-rendered) h3 {
-    width: 100%; 
-}
-
-
-body.header-4-background .cm-header-4,
-body.header-4-background :is(.markdown-preview-view, .markdown-rendered) h4 {
-    width: 100%; 
-} */
-
+/* =======================================  mermaid 设置  ========================================== */
 
 
 
@@ -81,6 +61,14 @@ body.header-4-background :is(.markdown-preview-view, .markdown-rendered) h4 {
   margin: 1em auto;
 }
 
+/* =======================================  callout 设置  ========================================== */
+
+
+
+/* 保持 callout 默认样式 */
+.canvas-node-content .callout {
+  text-align: left;
+}
 
 /* 调整 Callout 图标与标题对齐 */
 
@@ -129,3 +117,9 @@ body.header-4-background :is(.markdown-preview-view, .markdown-rendered) h4 {
 }
 
 
+/* =======================================  引用框 设置  ========================================== */
+
+/* 让阅读模式的引用框不再缩进 */
+.markdown-preview-view blockquote {
+  margin-inline-start: 0 !important;
+}

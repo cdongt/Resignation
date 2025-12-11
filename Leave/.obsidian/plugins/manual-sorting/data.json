@@ -17,12 +17,56 @@
     "1-CollectionBox": [
       "1-CollectionBox/readme-CollectionBox.md"
     ],
-    "2-Sandbox": [],
+    "2-Sandbox": [
+      "2-Sandbox/20250806-技术调研汇总清单-文档解析.md"
+    ],
     "3-Modules": [
       "3-Modules/readme-Zettelkasten.md"
     ],
     "4-Projects": [
-      "4-Projects/readme-Projects.md"
+      "4-Projects/readme-Projects.md",
+      "4-Projects/费用识别-物流部"
+    ],
+    "4-Projects/费用识别-物流部": [
+      "4-Projects/费用识别-物流部/ProcessRecording-费用识别-物流部.md",
+      "4-Projects/费用识别-物流部/WorkFlow-费用识别-物流部.md",
+      "4-Projects/费用识别-物流部/流程图",
+      "4-Projects/费用识别-物流部/模块细节",
+      "4-Projects/费用识别-物流部/项目相关配置"
+    ],
+    "4-Projects/费用识别-物流部/流程图": [
+      "4-Projects/费用识别-物流部/流程图/Excalidraw-费用识别业务逻辑图-2025-08-20-垂直视图.excalidraw.md",
+      "4-Projects/费用识别-物流部/流程图/EXCEL兼容"
+    ],
+    "4-Projects/费用识别-物流部/流程图/EXCEL兼容": [
+      "4-Projects/费用识别-物流部/流程图/EXCEL兼容/20251107-v3-excel的3种布局兼容方案-添加其他布局处理方法.canvas",
+      "4-Projects/费用识别-物流部/流程图/EXCEL兼容/20251110-v5-excel的3种布局兼容方案-删除二三布局的纠正.canvas",
+      "4-Projects/费用识别-物流部/流程图/EXCEL兼容/20251110-v4-excel的3种布局兼容方案-修改布局2的处理方法.canvas"
+    ],
+    "4-Projects/费用识别-物流部/模块细节": [
+      "4-Projects/费用识别-物流部/模块细节/添加发票识别",
+      "4-Projects/费用识别-物流部/模块细节/提示词",
+      "4-Projects/费用识别-物流部/模块细节/exce兼容",
+      "4-Projects/费用识别-物流部/模块细节/重复判断"
+    ],
+    "4-Projects/费用识别-物流部/模块细节/提示词": [
+      "4-Projects/费用识别-物流部/模块细节/提示词/20251210-费用识别用到的提示词-V6.2.zip"
+    ],
+    "4-Projects/费用识别-物流部/模块细节/添加发票识别": [
+      "4-Projects/费用识别-物流部/模块细节/添加发票识别/20251209-发票识别.md"
+    ],
+    "4-Projects/费用识别-物流部/模块细节/重复判断": [
+      "4-Projects/费用识别-物流部/模块细节/重复判断/20251121-重复判断逻辑更改.md"
+    ],
+    "4-Projects/费用识别-物流部/模块细节/exce兼容": [
+      "4-Projects/费用识别-物流部/模块细节/exce兼容/20251110-v5-excel的3种布局兼容方案-删除二三布局的纠正.canvas",
+      "4-Projects/费用识别-物流部/模块细节/exce兼容/20251110-v4-excel的3种布局兼容方案-修改布局2的处理方法.canvas",
+      "4-Projects/费用识别-物流部/模块细节/exce兼容/20251107-excel的3种布局兼容方案-v3-添加其他布局处理方法.canvas"
+    ],
+    "4-Projects/费用识别-物流部/项目相关配置": [
+      "4-Projects/费用识别-物流部/项目相关配置/20251209-安装mineru.md",
+      "4-Projects/费用识别-物流部/项目相关配置/20251201-uv命令使用.md",
+      "4-Projects/费用识别-物流部/项目相关配置/20251201-安装uv.md"
     ],
     "5-CodeSnippets": [
       "5-CodeSnippets/readme-Codesnipastes.md"

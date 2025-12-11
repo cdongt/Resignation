@@ -1,6 +1,6 @@
 {
   "accentColor": "#5a7a33",
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "cssTheme": "Blue Topaz",
   "theme": "moonstone",
   "interfaceFontFamily": "方正盛世楷书简体_准",
@@ -10,7 +10,6 @@
     "wucai",
     "excalidraw_autodisplay",
     "excalidraw_autohide",
-    "callout_note",
     "callout-table-fix",
     "separator",
     "hearder-bg",
@@ -18,8 +17,8 @@
     "info",
     "center-excalidraw",
     "printImg",
-    "style",
-    "grid-line"
+    "grid-line",
+    "style"
   ],
   "nativeMenus": false,
   "showViewHeader": true,

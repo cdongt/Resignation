@@ -46,9 +46,10 @@
   "2-Sandbox/readme-Sandbox.md": "LiPin",
   "2-Sandbox": "LiCodesandbox",
   "0Tasks": "LiCalendarCheck",
-  "Z-DirectoryAdjustment/结构文件说明.md": "LiPin",
   "1-CollectionBox": "LiAppWindow",
   "3-Modules/readme-Zettelkasten.md": "LiPin",
+  "5-CodeSnippets/readme-Codesnipastes.md": "LiPin",
   "4-Projects/readme-Projects.md": "LiPin",
-  "5-CodeSnippets/readme-Codesnipastes.md": "LiPin"
+  "4-Projects/费用识别-物流部/WorkFlow-费用识别-物流部.md": "LiPin",
+  "4-Projects/费用识别-物流部/ProcessRecording-费用识别-物流部.md": "LiPin"
 }
