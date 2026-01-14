@@ -49,7 +49,9 @@
   "1-CollectionBox": "LiAppWindow",
   "3-Modules/readme-Zettelkasten.md": "LiPin",
   "5-CodeSnippets/readme-Codesnipastes.md": "LiPin",
-  "4-Projects/readme-Projects.md": "LiPin",
   "4-Projects/费用识别-物流部/WorkFlow-费用识别-物流部.md": "LiPin",
-  "4-Projects/费用识别-物流部/ProcessRecording-费用识别-物流部.md": "LiPin"
+  "4-Projects/费用识别-物流部/ProcessRecording-费用识别-物流部.md": "LiPin",
+  "4-Projects/云雀产品检索_根据报价单/WorkFlow-云雀产品检索.md": "LiPin",
+  "4-Projects/云雀产品检索_根据报价单/ProcessRecording-云雀产品检索.md": "LiPin",
+  "4-Projects/readme-Projects.md": "LiPin"
 }

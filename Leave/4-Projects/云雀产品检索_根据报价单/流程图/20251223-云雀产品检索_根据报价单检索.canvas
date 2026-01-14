@@ -1,0 +1,45 @@
+{
+	"nodes":[
+		{"id":"a38a023605c275e3","type":"group","x":60,"y":-840,"width":345,"height":396,"label":"输入方式"},
+		{"id":"f4a20952939d6974","type":"group","x":-1520,"y":-300,"width":290,"height":383,"label":"不断提交的输入文件"},
+		{"id":"98fdd79980f661b9","type":"text","text":"输入图片","x":108,"y":-825,"width":250,"height":60},
+		{"id":"864a0c00aa7accc7","type":"text","text":"用户端-检索","x":108,"y":-980,"width":250,"height":60,"color":"3"},
+		{"id":"805ecac39df780dc","type":"text","text":"员工整理过的报价单（excel格式）","x":-1500,"y":-280,"width":250,"height":60},
+		{"id":"5bcb8d3cc7c7ccbb","type":"text","text":"工厂报价单（excel）","x":-1500,"y":-182,"width":250,"height":60},
+		{"id":"a5be86bc38faa0bc","type":"text","text":"用户端-提交","x":-1520,"y":-460,"width":250,"height":60,"color":"3"},
+		{"id":"9f512d2b10400e78","type":"text","text":"> [!info]+ 这些文件都包含都有产品图","x":-1575,"y":220,"width":400,"height":60,"color":"2"},
+		{"id":"a30eecc5dd6761aa","type":"text","text":"输入图片和文字","x":108,"y":-665,"width":250,"height":60},
+		{"id":"1fe331b8c9be913c","type":"text","text":"输入文字","x":108,"y":-745,"width":250,"height":60},
+		{"id":"a52602f1efbff429","type":"text","text":"结构化的信息","x":-700,"y":-135,"width":250,"height":60},
+		{"id":"994d20c4eaa4701e","type":"text","text":"查看识别结果并编辑","x":-950,"y":100,"width":250,"height":60},
+		{"id":"5a9d99e57193e995","type":"text","text":"下单合同","x":-1500,"y":-95,"width":250,"height":60},
+		{"id":"344c978555e023a3","type":"text","text":"产品册（pdf、ppt、excel）","x":-1500,"y":3,"width":250,"height":60},
+		{"id":"4f26346c65cba223","type":"text","text":"批量图片（多张图、或者一个excel里都是图片）","x":80,"y":-585,"width":305,"height":121},
+		{"id":"54e2c860c38494dc","type":"text","text":"es数据库","x":-255,"y":-48,"width":250,"height":60},
+		{"id":"4f02089155289bc5","type":"text","text":"MySQL","x":-255,"y":-240,"width":250,"height":60},
+		{"id":"ff0974feecb10cff","type":"text","text":"向量检索模块","x":120,"y":-185,"width":251,"height":114,"color":"1"},
+		{"id":"d7ded7595433fb3c","type":"text","text":"信息识别和提取模块","x":-1120,"y":-162,"width":140,"height":114,"color":"1"},
+		{"id":"7fa21498133b8d27","type":"text","text":"> [!info]+ 展示要求\n> 1. 表格形式\n> 2. 表头可筛选/排序","x":494,"y":-440,"width":342,"height":180},
+		{"id":"32f5372e8b98528a","type":"text","text":"按模板导出excel","x":920,"y":-158,"width":250,"height":60},
+		{"id":"12e104dba0fec8e0","type":"text","text":"展示检索结果","x":540,"y":-158,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"d630424837d2888f","toFloating":false,"fromNode":"f4a20952939d6974","fromSide":"right","toNode":"d7ded7595433fb3c","toSide":"left"},
+		{"id":"76e4f839f8fbd63f","fromFloating":false,"fromNode":"d7ded7595433fb3c","fromSide":"right","toNode":"a52602f1efbff429","toSide":"left"},
+		{"id":"13ffda250c7f9d52","fromNode":"a52602f1efbff429","fromSide":"right","toNode":"4f02089155289bc5","toSide":"left"},
+		{"id":"7acc2d445a04f371","fromNode":"a52602f1efbff429","fromSide":"right","toNode":"54e2c860c38494dc","toSide":"left","label":"字段拼接"},
+		{"id":"4b11a5be51a9f4e5","fromNode":"4f02089155289bc5","fromSide":"right","toNode":"ff0974feecb10cff","toSide":"left"},
+		{"id":"b7946fd6c569ddcf","fromNode":"54e2c860c38494dc","fromSide":"right","toNode":"ff0974feecb10cff","toSide":"left"},
+		{"id":"0276ebff651674af","fromNode":"a38a023605c275e3","fromSide":"bottom","toNode":"ff0974feecb10cff","toSide":"top","label":"检索"},
+		{"id":"6e5494aa4b674db6","fromNode":"ff0974feecb10cff","fromSide":"right","toNode":"12e104dba0fec8e0","toSide":"left"},
+		{"id":"4b60d9b02164b1ab","fromNode":"12e104dba0fec8e0","fromSide":"right","toNode":"32f5372e8b98528a","toSide":"left"},
+		{"id":"3880f7ef9f3164b2","fromNode":"12e104dba0fec8e0","fromSide":"top","toNode":"7fa21498133b8d27","toSide":"bottom","toEnd":"none"},
+		{"id":"c7f96aff51c9d682","fromNode":"f4a20952939d6974","fromSide":"bottom","toNode":"9f512d2b10400e78","toSide":"top","toEnd":"none"},
+		{"id":"8d54bc6c5cda581a","fromNode":"d7ded7595433fb3c","fromSide":"right","toNode":"994d20c4eaa4701e","toSide":"left"},
+		{"id":"e64b167361d75dd5","fromNode":"994d20c4eaa4701e","fromSide":"right","toNode":"a52602f1efbff429","toSide":"left","label":"用户确认"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

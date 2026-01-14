@@ -7,8 +7,7 @@
       "3-Modules",
       "4-Projects",
       "5-CodeSnippets",
-      "Z-Configuration",
-      "Z-DirectoryAdjustment"
+      "Z-Configuration"
     ],
     "0Tasks": [
       "0Tasks/Daily"
@@ -17,22 +16,25 @@
     "1-CollectionBox": [
       "1-CollectionBox/readme-CollectionBox.md"
     ],
-    "2-Sandbox": [
-      "2-Sandbox/20250806-技术调研汇总清单-文档解析.md"
-    ],
+    "2-Sandbox": [],
     "3-Modules": [
       "3-Modules/readme-Zettelkasten.md"
     ],
     "4-Projects": [
       "4-Projects/readme-Projects.md",
+      "4-Projects/云雀产品检索_根据报价单",
       "4-Projects/费用识别-物流部"
     ],
     "4-Projects/费用识别-物流部": [
       "4-Projects/费用识别-物流部/ProcessRecording-费用识别-物流部.md",
       "4-Projects/费用识别-物流部/WorkFlow-费用识别-物流部.md",
+      "4-Projects/费用识别-物流部/教程",
       "4-Projects/费用识别-物流部/流程图",
       "4-Projects/费用识别-物流部/模块细节",
       "4-Projects/费用识别-物流部/项目相关配置"
+    ],
+    "4-Projects/费用识别-物流部/教程": [
+      "4-Projects/费用识别-物流部/教程/20260113-费用识别程序的使用教程及常见问题-V8版本.md"
     ],
     "4-Projects/费用识别-物流部/流程图": [
       "4-Projects/费用识别-物流部/流程图/Excalidraw-费用识别业务逻辑图-2025-08-20-垂直视图.excalidraw.md",
@@ -50,6 +52,7 @@
       "4-Projects/费用识别-物流部/模块细节/重复判断"
     ],
     "4-Projects/费用识别-物流部/模块细节/提示词": [
+      "4-Projects/费用识别-物流部/模块细节/提示词/20260114-费用发票识别用到的提示词-V8.zip",
       "4-Projects/费用识别-物流部/模块细节/提示词/20251210-费用识别用到的提示词-V6.2.zip"
     ],
     "4-Projects/费用识别-物流部/模块细节/添加发票识别": [
@@ -68,6 +71,25 @@
       "4-Projects/费用识别-物流部/项目相关配置/20251201-uv命令使用.md",
       "4-Projects/费用识别-物流部/项目相关配置/20251201-安装uv.md"
     ],
+    "4-Projects/云雀产品检索_根据报价单": [
+      "4-Projects/云雀产品检索_根据报价单/ProcessRecording-云雀产品检索.md",
+      "4-Projects/云雀产品检索_根据报价单/WorkFlow-云雀产品检索.md",
+      "4-Projects/云雀产品检索_根据报价单/流程图",
+      "4-Projects/云雀产品检索_根据报价单/模块细节"
+    ],
+    "4-Projects/云雀产品检索_根据报价单/流程图": [
+      "4-Projects/云雀产品检索_根据报价单/流程图/20251223-云雀产品检索_根据报价单检索.canvas"
+    ],
+    "4-Projects/云雀产品检索_根据报价单/模块细节": [
+      "4-Projects/云雀产品检索_根据报价单/模块细节/前端设计",
+      "4-Projects/云雀产品检索_根据报价单/模块细节/检索链路"
+    ],
+    "4-Projects/云雀产品检索_根据报价单/模块细节/检索链路": [
+      "4-Projects/云雀产品检索_根据报价单/模块细节/检索链路/20260114-ES链路情况图-云雀-报价数据.canvas"
+    ],
+    "4-Projects/云雀产品检索_根据报价单/模块细节/前端设计": [
+      "4-Projects/云雀产品检索_根据报价单/模块细节/前端设计/20260106-前端设计.md"
+    ],
     "5-CodeSnippets": [
       "5-CodeSnippets/readme-Codesnipastes.md"
     ],
@@ -80,6 +102,8 @@
       "Z-Configuration/tasksCalendar"
     ],
     "Z-Configuration/0Template": [
+      "Z-Configuration/0Template/ProcessRecording.md",
+      "Z-Configuration/0Template/WorkFlow.md",
       "Z-Configuration/0Template/每月计划更新.md",
       "Z-Configuration/0Template/每月开发记录.md",
       "Z-Configuration/0Template/DailyNote.md"
@@ -132,9 +156,6 @@
     "Z-Configuration/tasksCalendar": [
       "Z-Configuration/tasksCalendar/view.css",
       "Z-Configuration/tasksCalendar/view.js"
-    ],
-    "Z-DirectoryAdjustment": [
-      "Z-DirectoryAdjustment/结构文件说明.md"
     ]
   },
   "sortOrder": "customOrder",

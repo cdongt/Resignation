@@ -352,15 +352,6 @@
       "key": "O"
     }
   ],
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "graph:open": [
     {
       "modifiers": [
